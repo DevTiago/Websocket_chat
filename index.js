@@ -4,7 +4,7 @@ var socket = require("socket.io");
 // App setup
 var app = express();
 var server = app.listen(5000, function() {
-  console.log("The server is running on port 5000");
+  console.log("The server is running on port 5000"); 
 });
 
 // getting the html (static file - middleware) from public folder
